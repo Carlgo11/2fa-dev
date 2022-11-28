@@ -1,4 +1,6 @@
 // Connect and authenticate with your Algolia app
+import algoliasearch from "algoliasearch";
+
 const client = algoliasearch('9TTZ08M03E', 'faa905e846fea4f08548776bc7273855')
 
 // Create a new index and add a record
